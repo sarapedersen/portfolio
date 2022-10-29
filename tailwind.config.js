@@ -11,8 +11,12 @@ module.exports = {
         'about': "url('/assets/bg-about.svg')",
       },
       colors: {
-        'brown': '#B56445'
+        'brown': '#B56445',
+        'lightPink': '#FFDDD2'
       },
+      fontFamily: {
+        serif: 'Lora'
+      }
     },
   },
   plugins: [],

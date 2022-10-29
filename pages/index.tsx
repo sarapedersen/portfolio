@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <div className='text-brown font-serif font-bold flex flex-col justify-center items-center h-screen'>
+      <div className='text-brown font-bold flex flex-col justify-center items-center h-screen'>
         <h1 className='text-3xl md:text-6xl'>Sara Holm Pedersen</h1>
         <p>Informatics student at the</p>
         <p>Norwegian University of Science and Technology</p>
