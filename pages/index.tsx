@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import About from './about'
 import Navbar from './components/Navbar'
 
 const Home: NextPage = () => {
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <div className='text-brown font-bold flex flex-col justify-center items-center h-screen'>
+      <div className='text-brown font-bold flex flex-col justify-center items-center h-screen px-6 text-center'>
         <h1 className='text-3xl md:text-6xl'>Sara Holm Pedersen</h1>
         <p>Informatics student at the</p>
         <p>Norwegian University of Science and Technology</p>
