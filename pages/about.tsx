@@ -6,8 +6,8 @@ const about = () => {
   return (
     <div className='bg-lightPink md:bg-about bg-no-repeat bg-cover min-h-screen'>
         <Navbar/>
-        <div className='h-screen flex flex-col justify-center text-lg'>
-            <div className='mx-10 sm:mr-[20%] sm:ml-[10%] space-y-5 text-brown sm:text-lightPink'>
+        <div className='h-screen flex flex-col text-lg'>
+            <div className='mt-[130px] md:mt-[250px] lg:mt-[18%]  mx-10 sm:mr-[20%] sm:ml-[10%] space-y-5 text-brown md:text-lightPink'>
                 <h1 className='text-4xl font-bold'>Who am I?</h1>
                 <p>When I was just 3 years old I sat down in front of my first computer, and the facination
                 for computers has grown ever since. I love to challenge myself to do more and learn more 
@@ -18,7 +18,7 @@ const about = () => {
                 been working volunterly for some years with different projects. 
                 You can see some of my work under the <span className='font-bold'>{<Link href="/projects">projects</Link>}</span> site. </p>
             </div>
-            <p className='self-center fixed bottom-5 text-brown'>Sara Holm Pedersen</p>
+            <p className='invisible sm:visible self-center mt-8 bottom-5 fixed text-brown'>Sara Holm Pedersen</p>
         </div>
     </div>
   )

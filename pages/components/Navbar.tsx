@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <>
             <div className='fixed right-16 mt-8 '>
-                <nav className='invisible sm:visible text-white md:text-brown font-bold space-x-14 text-lg'>
+                <nav className='invisible sm:visible text-white sm:text-brown font-bold space-x-14 text-lg'>
                     {pages.map((page, i) => 
                         <Link key={i} href={page.link}>
                             <a className={currentPage === page.link ? "underline underline-offset-4" : ""}>{page.name}</a>
