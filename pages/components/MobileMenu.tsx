@@ -43,7 +43,7 @@ const MobileMenu = ({pages, currentPage}:props) => {
                 </div>
             ) : (
                 <div className="space-y-2.5 fixed right-10 mt-10 " onClick={() => setExpanded(!expanded)}>
-                    {[...Array(3)].map((i) => (
+                    {[1,1,1].map((i) => (
                         <span className="block rounded-full h-0.5 w-10 bg-brown"></span>
                     ))}
                 </div>
