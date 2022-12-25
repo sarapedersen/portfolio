@@ -17,6 +17,15 @@ module.exports = {
       },
       fontFamily: {
         serif: 'Lora'
+      },
+      animation: {
+        fadeOut: "fadeOut 2s ease-in forwards"
+      },
+      keyframes: {
+        fadeOut: {
+          "100%": { opacity: 0 },
+          "0%": { opacity: 1 }
+        }
       }
     },
   },
