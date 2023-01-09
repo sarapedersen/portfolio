@@ -19,7 +19,8 @@
 
     return (
       <>
-        <div className='flex flex-col h-screen '>
+      {/* bg-home bg-no-repeat bg-cover */}
+        <div className='bg-projects bg-no-repeat bg-cover  flex flex-col h-screen '>
             <Navbar/>
             <div className='h-screen flex flex-col mx-10 sm:mr-[20%] sm:ml-[10%] space-y-5 text-brown justify-center '>
               <h1 className='text-4xl font-bold'>My work</h1>
@@ -31,11 +32,11 @@
         </div>
         
         <div className='flex flex-col items-center text-center'>
-          <ul className=' space-y-4'>
+          <ul className='space-y-20'>
             {projects && projects.map((p, i) => 
-              <div key={i} className='space-y-1 font-bold'>
-                <li>{p.name}</li><img></img>
-                <img src={urlFor(p.image).width(350).url()}></img>
+              <div key={i} className='space-y-1 font-bold mx-[15%]'>
+                <a href='www.google.com'>{p.name}</a><img></img>
+                <img src={urlFor(p.image).url()}></img>
               </div>)}
           </ul>
         </div>

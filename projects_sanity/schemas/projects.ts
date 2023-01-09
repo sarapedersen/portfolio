@@ -19,6 +19,11 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'link',
+      title: 'Link',
+      type: 'string',
+    }),
+    defineField({
       name: 'description',
       title: 'Description',
       type: 'array',

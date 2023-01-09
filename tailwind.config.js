@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         'home': "url('/assets/bg-index.svg')",
         'about': "url('/assets/bg-about.svg')",
+        'projects': "url('/assets/bg-projects.svg')",
         'projectsM': "url('/assets/bg-projects-mobile.svg')",
       },
       colors: {
